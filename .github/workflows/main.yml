@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Unit Tests
         # The '-m unittest' command executes the tests found in test_calculator.py
-        run: python -m unittest test_calculator.py
+        run: python -m unittest src/test_calculator.py
         # If any test fails, this step fails, and the workflow terminates.
 
   # Job 2: Build and Deploy Documentation
