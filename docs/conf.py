@@ -21,6 +21,10 @@ release = '0.0.1'
 
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages',
+    'sphinx.ext.coverage',
     'sphinx.ext.napoleon',      # Supports numpy and google style docstrings
     'sphinx_rtd_theme',         # Required for the Read the Docs theme
     'sphinx_autodoc_typehints'  # Uses Python type hints in the docs
